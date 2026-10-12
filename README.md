@@ -2,6 +2,9 @@
 
 A local VS Code extension that adds a green check or red cross in the editor gutter next to recognized class-method declarations and free-function declarations, including non-member operator overloads, in headers.
 
+![Preview of indicators](https://drive.google.com/file/d/1_7c4oO3Xvixpo49eJFl75uCRxvT6Q8kO/preview)
+Preview of the gutter indicators
+
 ## Install
 
 1. Download `cpp-implementation-indicator-0.3.0.vsix`
