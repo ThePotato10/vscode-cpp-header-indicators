@@ -1,0 +1,55 @@
+{
+  "name": "cpp-implementation-indicator",
+  "displayName": "C++ Implementation Indicator",
+  "description": "Shows gutter indicators for C++ class methods and free-function/operator declarations matched to definitions.",
+  "version": "0.3.0",
+  "publisher": "local-tools",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "activationEvents": [
+    "onLanguage:cpp",
+    "onLanguage:c"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cppImplementationIndicator.refresh",
+        "title": "C++ Implementation Indicator: Refresh"
+      }
+    ],
+    "configuration": {
+      "title": "C++ Implementation Indicator",
+      "properties": {
+        "cppImplementationIndicator.sourceExtensions": {
+          "type": "array",
+          "default": [
+            ".cpp",
+            ".cc",
+            ".cxx",
+            ".c"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "description": "Source file extensions to search for matching implementations."
+        },
+        "cppImplementationIndicator.searchWorkspace": {
+          "type": "boolean",
+          "default": true,
+          "description": "Search the workspace for a same-basename source file if no sibling source file exists."
+        }
+      }
+    }
+  },
+  "files": [
+    "extension.js",
+    "parser.js",
+    "resources/**",
+    "README.md"
+  ]
+}
