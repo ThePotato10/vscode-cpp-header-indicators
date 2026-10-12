@@ -3,6 +3,7 @@
 A local VS Code extension that adds a green check or red cross in the editor gutter next to recognized class-method declarations and free-function declarations, including non-member operator overloads, in headers.
 
 ![Preview of indicators](./preview.png)
+
 Preview of the gutter indicators
 
 ## Install
