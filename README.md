@@ -4,7 +4,7 @@ A local VS Code extension that adds a green check or red cross in the editor gut
 
 ![Preview of indicators](./preview.png)
 
-Preview of the gutter indicators
+Preview of the gutter indicators. (If you happen to recognize this code, Go Blue and sorry for bringing up old traumas)
 
 ## Install
 
