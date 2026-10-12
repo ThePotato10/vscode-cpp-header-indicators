@@ -4,10 +4,11 @@ A local VS Code extension that adds a green check or red cross in the editor gut
 
 ## Install
 
-1. In VS Code, open Extensions (`Cmd+Shift+X` on macOS).
-2. Open the `...` menu and select **Install from VSIX...**.
-3. Choose `cpp-implementation-indicator-0.3.0.vsix`.
-4. Reload VS Code if prompted.
+1. Download `cpp-implementation-indicator-0.3.0.vsix`
+2. In VS Code, open Extensions (`Cmd+Shift+X` on macOS).
+3. Open the `...` menu and select **Install from VSIX...**.
+4. Choose `cpp-implementation-indicator-0.3.0.vsix`.
+5. Reload VS Code if prompted.
 
 Alternatively, run `code --install-extension /path/to/cpp-implementation-indicator-0.3.0.vsix`.
 
